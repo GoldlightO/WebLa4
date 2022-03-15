@@ -1,0 +1,19 @@
+<div style="text-align: center">
+  <span *ngIf="!value.length" style="color: lightslategray">ZERO_HITS</span>
+</div>
+<table *ngIf="value.length">
+  <tr>
+    <th>ID</th>
+    <th>X</th>
+    <th>Y</th>
+    <th>R</th>
+    <th>RESULT</th>
+  </tr>
+  <tr *ngFor="let point of value">
+    <td>{{point.id}}</td>
+    <td>{{point.x}}</td>
+    <td>{{point.y | number: '1.2'}}</td>
+    <td>{{point.r}}</td>
+    <td>{{point.result ? 'HIT' : 'NOT-HIT'}}</td>
+  </tr>
+</table>

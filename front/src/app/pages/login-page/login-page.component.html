@@ -1,0 +1,28 @@
+<p>login-page works!</p>
+<a routerLink="/register" >to register page</a>
+
+<form [formGroup]="loginForm">
+
+  <div>
+    <div *ngIf="loginForm.controls['username'].invalid && loginForm.controls['username'].touched">
+      Некорректный password
+    </div>
+    <label for="username">
+      Username
+    </label>
+    <input id="username" type="text" formControlName="username">
+  </div>
+
+  <div>
+    <div *ngIf="loginForm.controls['password'].invalid && loginForm.controls['password'].touched">
+      Некорректный password
+    </div>
+    <label for="password">
+      Password
+    </label>
+    <input id="password" type="password" formControlName="password" >
+  </div>
+
+  <button type="submit" (click)="auth()" [disabled]="loginForm.invalid">login</button>
+  <div [style.visibility]="message ? 'visible' : 'hidden'">{{message}}</div>
+</form>
