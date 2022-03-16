@@ -3,29 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5cbec55d-f03c-4dfd-aeb8-f9b2f25045b3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/alkarized/lab4/Lab4Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/goldlighto/lab4/Lab4Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/alkarized/lab4/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/goldlighto/lab4/ServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/alkarized/lab4/configurations/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/goldlighto/lab4/configurations/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/alkarized/lab4/controllers/PointController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/goldlighto/lab4/controllers/PointController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/alkarized/lab4/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/goldlighto/lab4/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/alkarized/lab4/entites/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/goldlighto/lab4/entites/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/alkarized/lab4/entites/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/goldlighto/lab4/entites/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/alkarized/lab4/entites/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/goldlighto/lab4/entites/UserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/alkarized/lab4/repositories/PointRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/goldlighto/lab4/repositories/PointRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/alkarized/lab4/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/goldlighto/lab4/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/alkarized/lab4/security/JWTTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/goldlighto/lab4/security/JWTTokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/alkarized/lab4/services/JWTProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/goldlighto/lab4/services/JWTProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/alkarized/lab4/services/PointValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/goldlighto/lab4/services/PointValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/alkarized/lab4/services/UserAuthorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/goldlighto/lab4/services/UserAuthorization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/alkarized/lab4/services/UserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/goldlighto/lab4/services/UserDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/alkarized/lab4/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/src/main/java/itmo/goldlighto/lab4/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_lab4_back/src/test/java/itmo/alkarized/lab4/Lab4ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_lab4_back/src/test/java/itmo/alkarized/lab4/Lab4ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +80,7 @@
       <workItem from="1647451184928" duration="348000" />
       <workItem from="1647452493229" duration="617000" />
       <workItem from="1647455389715" duration="2668000" />
+      <workItem from="1647458288525" duration="26000" />
     </task>
     <servers />
   </component>
