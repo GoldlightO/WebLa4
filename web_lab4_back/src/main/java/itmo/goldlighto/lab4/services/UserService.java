@@ -1,8 +1,6 @@
-package itmo.alkarized.lab4.services;
-
-import itmo.alkarized.lab4.entites.User;
-import itmo.alkarized.lab4.entites.UserRequest;
-import itmo.alkarized.lab4.repositories.UserRepository;
+import itmo.goldlighto.lab4.entites.User;
+import itmo.goldlighto.lab4.entites.UserRequest;
+import itmo.goldlighto.lab4.repositories.UserRepository;
 import lombok.extern.java.Log;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

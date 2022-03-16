@@ -1,8 +1,6 @@
-package itmo.alkarized.lab4.security;
-
-import itmo.alkarized.lab4.entites.User;
-import itmo.alkarized.lab4.services.JWTProvider;
-import itmo.alkarized.lab4.services.UserService;
+import itmo.goldlighto.lab4.entites.User;
+import itmo.goldlighto.lab4.services.JWTProvider;
+import itmo.goldlighto.lab4.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;

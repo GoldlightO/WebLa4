@@ -1,5 +1,3 @@
-package itmo.alkarized.lab4.entites;
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

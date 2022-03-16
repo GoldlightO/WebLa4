@@ -1,12 +1,10 @@
-package itmo.alkarized.lab4.controllers;
-
-import itmo.alkarized.lab4.entites.Point;
-import itmo.alkarized.lab4.entites.User;
-import itmo.alkarized.lab4.entites.UserRequest;
-import itmo.alkarized.lab4.repositories.PointRepository;
-import itmo.alkarized.lab4.repositories.UserRepository;
-import itmo.alkarized.lab4.services.JWTProvider;
-import itmo.alkarized.lab4.services.PointValidator;
+import itmo.goldlighto.lab4.entites.Point;
+import itmo.goldlighto.lab4.entites.User;
+import itmo.goldlighto.lab4.entites.UserRequest;
+import itmo.goldlighto.lab4.repositories.PointRepository;
+import itmo.goldlighto.lab4.repositories.UserRepository;
+import itmo.goldlighto.lab4.services.JWTProvider;
+import itmo.goldlighto.lab4.services.PointValidator;
 import lombok.extern.java.Log;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

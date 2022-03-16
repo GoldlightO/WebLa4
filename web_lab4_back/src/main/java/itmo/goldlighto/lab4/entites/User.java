@@ -1,5 +1,3 @@
-package itmo.alkarized.lab4.entites;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -22,7 +20,9 @@ import java.util.List;
 @Table(name = "USER_TABLE")
 public class User implements UserDetails{
 
-    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @GeneratedValue(strategy=GenerationType.SEQUENCE, generator = "id_Sequenceu")
+    @SequenceGenerator(name = "id_Sequenceu", sequenceName = "ID_SEQu")
     private Long id;
     private String username;
     private String password;

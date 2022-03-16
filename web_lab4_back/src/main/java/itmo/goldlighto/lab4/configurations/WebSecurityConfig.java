@@ -1,7 +1,5 @@
-package itmo.alkarized.lab4.configurations;
-
-import itmo.alkarized.lab4.security.JWTTokenFilter;
-import itmo.alkarized.lab4.services.UserDetails;
+import itmo.goldlgitho.lab4.security.JWTTokenFilter;
+import itmo.goldlighto.lab4.services.UserDetails;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;

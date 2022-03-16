@@ -1,6 +1,4 @@
-package itmo.alkarized.lab4.services;
-
-import itmo.alkarized.lab4.entites.Point;
+import itmo.goldlighto.lab4.entites.Point;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;

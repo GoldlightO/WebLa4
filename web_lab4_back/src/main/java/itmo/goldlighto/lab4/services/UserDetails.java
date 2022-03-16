@@ -1,6 +1,4 @@
-package itmo.alkarized.lab4.services;
-
-import itmo.alkarized.lab4.entites.User;
+import itmo.goldlighto.lab4.entites.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

@@ -1,12 +1,10 @@
-package itmo.alkarized.lab4;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication(scanBasePackages = {
-        "itmo.alkarized.lab4.configurations", "itmo.alkarized.lab4.controllers",
-        "itmo.alkarized.lab4.entites", "itmo.alkarized.lab4.services", "itmo.alkarized.lab4.repositories",
-        "itmo.alkarized.lab4.security"
+        "itmo.goldlighto.lab4.configurations", "itmo.goldlighto.lab4.controllers",
+        "itmo.goldlighto.lab4.entites", "itmo.goldlighto.lab4.services", "itmo.goldlighto.lab4.repositories",
+        "itmo.goldlighto.lab4.security"
 })
 public class Lab4Application {
 

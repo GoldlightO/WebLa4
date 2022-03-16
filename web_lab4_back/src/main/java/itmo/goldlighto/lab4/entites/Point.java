@@ -1,5 +1,3 @@
-package itmo.alkarized.lab4.entites;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -17,7 +15,8 @@ import java.io.Serializable;
 @Table(name = "POINT_TABLE")
 public class Point implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy=GenerationType.SEQUENCE, generator = "id_Sequencep")
+    @SequenceGenerator(name = "id_Sequencep", sequenceName = "ID_SEQp")
     private Long id;
     private int x;
     private double y;

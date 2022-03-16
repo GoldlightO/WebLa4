@@ -1,7 +1,5 @@
-package itmo.alkarized.lab4.services;
-
-import itmo.alkarized.lab4.entites.User;
-import itmo.alkarized.lab4.entites.UserRequest;
+import itmo.goldlighto.lab4.entites.User;
+import itmo.goldlighto.lab4.entites.UserRequest;
 import lombok.extern.java.Log;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
