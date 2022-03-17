@@ -1,45 +1,9 @@
-<p>main-page works!</p>
+<head>
+  <meta charset="utf-8">
+</head>
+
 <app-logout></app-logout>
 <app-canvas (sendSignal)="pointFromCanvas($event)" [value]="points" [selectedRadius] = "radius"></app-canvas>
-<!--<form [formGroup]="pointForm" style="text-align: center">-->
-
-<!--  -->
-
-<!--  &lt;!&ndash; Y &ndash;&gt;-->
-<!--  <div class="p-field">-->
-<!--    &lt;!&ndash; Y input field &ndash;&gt;-->
-<!--    <div id="y-input">-->
-<!--      <div style="margin-right: 15px">Y = {{yForm.value | number:'1.2-2'}}</div>-->
-<!--      <input type="range" min="-5" max="5" step="0.01" formControlName="y">-->
-<!--    </div>-->
-<!--    &lt;!&ndash; Y validation messages &ndash;&gt;-->
-<!--    <div *ngIf="yForm.invalid && yForm.touched" class="p-invalid">-->
-<!--      <small *ngIf="yForm.errors?.min || yForm.errors?.max">-->
-<!--        {{'VALIDATION.Y_MUST_BE_IN_RANGE' | translate}} (-5...5)-->
-<!--      </small>-->
-<!--    </div>-->
-<!--  </div>-->
-
-<!--  &lt;!&ndash; R &ndash;&gt;-->
-<!--  <div class="p-field">-->
-<!--    <div class="p-inputgroup" style="align-items: center">-->
-<!--      <p style="margin-right: 10px">R:</p>-->
-<!--      &lt;!&ndash; R input ListBox &ndash;&gt;-->
-<!--      <p-listbox [options]="rValues" formControlName="r" [listStyle]="{'max-height':'100px'}"></p-listbox>-->
-<!--      &lt;!&ndash; R validation messages &ndash;&gt;-->
-<!--      <small *ngIf="rForm.value < 0" class="p-invalid" style="margin-left: 0.5rem">-->
-<!--        {{'VALIDATION.RADIUS_MUST_BE_POSITIVE' | translate}}-->
-<!--      </small>-->
-<!--    </div>-->
-<!--  </div>-->
-
-<!--  <div id="manual-input-buttons">-->
-<!--    <p-button id="submit" (click)="submitHit(pointForm.value)"-->
-<!--              [disabled]="pointForm.invalid || isNaN(yForm.value)"> {{ 'BUTTONS.SUBMIT' | translate }} </p-button>-->
-<!--    <p-button id="clear" (click)="clearHits()">{{"BUTTONS.CLEAR_HITS" | translate}}</p-button>-->
-<!--  </div>-->
-
-<!--</form>-->
 
 <form [formGroup]="pointForm">
   <div>
@@ -65,6 +29,5 @@
   || !validateY(selectedValueY)
   || !validateX(selectedValueX)" type="submit" (click)="sendNewPoint()">CHECK POINT</button>
 </form>
-
 
 <app-table [value]="points"></app-table>

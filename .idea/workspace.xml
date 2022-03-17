@@ -4,6 +4,12 @@
     <list default="true" id="5cbec55d-f03c-4dfd-aeb8-f9b2f25045b3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/components/canvas/canvas.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/components/canvas/canvas.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/components/logout/logout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/components/logout/logout.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/pages/login-page/login-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/pages/login-page/login-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/pages/main-page/main-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/pages/main-page/main-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/pages/registration-page/registration-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/pages/registration-page/registration-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +53,22 @@
       <recent name="C:\web4" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="mvnw" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/web_lab4_back/mvnw" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/web_lab4_back" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/front/package.json" />
       <command value="run" />
@@ -59,6 +80,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Shell Script.mvnw" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,6 +107,10 @@
       <workItem from="1647452493229" duration="617000" />
       <workItem from="1647455389715" duration="2668000" />
       <workItem from="1647458288525" duration="26000" />
+      <workItem from="1647458680521" duration="464000" />
+      <workItem from="1647459158170" duration="4701000" />
+      <workItem from="1647464157407" duration="395000" />
+      <workItem from="1647537942251" duration="36000" />
     </task>
     <servers />
   </component>
