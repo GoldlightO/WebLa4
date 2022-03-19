@@ -4,12 +4,6 @@
     <list default="true" id="5cbec55d-f03c-4dfd-aeb8-f9b2f25045b3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/components/canvas/canvas.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/components/canvas/canvas.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/components/logout/logout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/components/logout/logout.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/pages/login-page/login-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/pages/login-page/login-page.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/pages/main-page/main-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/pages/main-page/main-page.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/pages/registration-page/registration-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/pages/registration-page/registration-page.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +34,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -111,6 +106,10 @@
       <workItem from="1647459158170" duration="4701000" />
       <workItem from="1647464157407" duration="395000" />
       <workItem from="1647537942251" duration="36000" />
+      <workItem from="1647605468068" duration="1561000" />
+      <workItem from="1647607375465" duration="2028000" />
+      <workItem from="1647613630749" duration="976000" />
+      <workItem from="1647677443101" duration="513000" />
     </task>
     <servers />
   </component>
