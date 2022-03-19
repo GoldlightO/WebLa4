@@ -4,6 +4,16 @@
 
 <app-logout></app-logout>
 <app-canvas (sendSignal)="pointFromCanvas($event)" [value]="points" [selectedRadius] = "radius"></app-canvas>
+<p>
+
+
+
+
+
+
+
+
+</p>
 
 <form [formGroup]="pointForm">
   <div>
@@ -28,6 +38,7 @@
   || !validateR(selectedValueR)
   || !validateY(selectedValueY)
   || !validateX(selectedValueX)" type="submit" (click)="sendNewPoint()">CHECK POINT</button>
+
 </form>
 
 <app-table [value]="points"></app-table>
